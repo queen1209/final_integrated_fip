@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+body
+{
+	background-color: white;
+	
+}
+
+#wrap {
+	background-color: bisque;
+	width: 80%;
+	margin: auto;
+}
+
+.topNav a
+{
+	text-decoration: none;
+}
+nav ul
+{
+	list-style-type: none;
+}
+
+nav li
+{	
+	text-decoration: none;
+	display: inline;
+	font-family: 'Arvo', serif;
+	color: yellow;
+	font-size: 25px;
+	padding: 15px;
+	
+}
+
+nav a:hover {
+	color: #32673f;
+  }
+
+.topNav
+{
+	float: right;
+	overflow: hidden;
+}
+
+.para1 
+{
+	font-size: 30px;
+	color: white;
+}
+
+.main-row {
+	float: left;
+	width: 50%;
+}
+
+.about-column {
+	float: left;
+	width: 33%;
+}
+
+.column
+{
+	/* margin: 1px 7.15px 7.15px 1px;
+	padding: 10px 40px 10px 40px; */
+	float: left;
+	width: 25%;
+}
+
+.row {
+	padding: 10px;
+	display: inline-block;
+	height: 30%;
+}
+
+.row::after 
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.mainFooter {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 20px;
+	height: 125px;
+}
+
+.logoNav {
+	display: inline;
+	list-style: none;
+}
+
+.logoFooter {
+	margin-top: 25px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.footerNav {
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.iconNav li{
+	margin: 15px;
+	display: inline;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
